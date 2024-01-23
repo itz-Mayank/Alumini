@@ -1,0 +1,7 @@
+{
+  "name": "aluminiHome",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

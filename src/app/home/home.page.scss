@@ -1,0 +1,45 @@
+ion-header{
+  ion-toolbar{
+    ion-button{
+      p{
+        font-size: 0.5rem;
+      }
+    }
+  }
+}
+
+ion-content{
+  ion-header{
+    text-align: center;
+  }
+  ion-card{
+    
+    
+    ion-card-header{
+      font-size: 1.3rem;
+      font-weight: bold;
+      
+    }
+    ion-label{
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    ion-text{
+      font-size: small;
+    }
+    ion-list{
+      ion-item{
+        margin-bottom: 10px;
+      }
+      img{
+        border-radius: 50%;
+      }
+    }
+  }
+  .startPara{
+    margin: 20px;
+    font-size: 1.2rem;
+  }
+  
+}
+
