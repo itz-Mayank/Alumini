@@ -1,0 +1,360 @@
+ion-header{
+  ion-toolbar{
+    ion-button{
+      p{
+        font-size: 0.5rem;
+      }
+    }
+  }
+}
+
+// ion-content{
+//   ion-header{
+//     text-align: center;
+//   }
+//   ion-card{
+    
+    
+//     ion-card-header{
+//       font-size: 1.3rem;
+//       font-weight: bold;
+      
+//     }
+//     ion-label{
+//       font-weight: bold;
+//       font-size: 1.1rem;
+//     }
+//     ion-text{
+//       font-size: small;
+//     }
+//     ion-list{
+//       ion-item{
+//         margin-bottom: 10px;
+//       }
+//       img{
+//         border-radius: 50%;
+//       }
+//     }
+//   }
+//   .startPara{
+//     margin: 20px;
+//     font-size: 1.2rem;
+//   }
+  
+// }
+
+
+
+
+#img{
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  // align-items:;
+  text-align: center;
+  // border-radius: 100px;
+  height: 10%;
+  width: 10%;
+  justify-content: right;
+  align-items: end;
+}
+
+#top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // padding-top: 10px;
+  margin: auto;
+}
+
+ion-menu-button.md{
+  display: flex;
+  justify-content: right;
+  align-items: end;
+
+}
+
+#nav{
+  // padding-top: 5px;
+  // margin-top: 10px;
+  height: 50px;
+  width: auto;
+  margin: 0%;
+  padding-top: 5px;
+}
+
+ion-title{
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+}
+
+//login
+.login{
+  height: 40px;
+  display: flex;
+  border-radius: 8px;
+  border: 10px;
+  border-bottom: black;
+  padding: 5px;
+  padding-right: 10px;
+  margin: 5px;
+  color: white;
+  background-color: rgba(50, 0, 91, 0.866);
+}
+
+
+//container
+.container{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(27, 0, 61); 
+  color: white;
+  display: flex;
+  height: 50%;
+  width: 100%;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  // width: fit-content;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+}
+
+#num{
+  font-size: 1.5em;
+  display: flex;
+}
+
+
+
+//content
+#content{
+  background-color:rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: table-row;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 90%;
+  width: 100%;
+  margin: 10px;
+  // background-blend-mode: color-burn;
+  
+}
+
+#content p{
+  margin: 10px;
+}
+
+#content h2{
+  margin: 10px;
+  display: flex;
+  padding-top: 20px;
+}
+
+
+
+// Icon 
+ion-icon{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 10px;
+    font-size: large;
+
+  }
+//------
+.reunion{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(180, 178, 178);
+  z-index: 1;
+  opacity: 1;
+  border: 2px black;
+  font-size: small;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+.reunion b{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 5px;
+  font-size: large;
+
+}
+.reunion p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 26px;
+
+}
+
+
+//----------
+.alumni{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(180, 178, 178);
+  z-index: 1;
+  opacity: 1;
+  border: 2px black;
+  font-size: small;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+.alumni b{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 5px;
+  font-size: large;
+
+}
+.alumni p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 26px;
+
+}
+
+
+//-------
+.book{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(180, 178, 178);
+  z-index: 1;
+  opacity: 1;
+  border: 2px black;
+  font-size: small;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+.book b{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 5px;
+  font-size: large;
+
+}
+.book p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 26px;
+
+}
+
+
+//------
+.trophy{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(180, 178, 178);
+  z-index: 1;
+  opacity: 1;
+  border: 2px black;
+  font-size: small;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+.trophy b{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 5px;
+  font-size: large;
+
+}
+.trophy p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 26px;
+
+}
+
+
+//-----
+.wallet{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(180, 178, 178);
+  z-index: 1;
+  opacity: 1;
+  border: 2px black;
+  font-size: small;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+.wallet b{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 5px;
+  font-size: large;
+
+}
+.wallet p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 26px;
+
+}
+
+a {
+color: white;
+text-decoration: none;
+
+}
+
+
+
+// footer
+.foot{
+
+padding: 10px;
+background-color: rgb(25, 0, 45);
+color: white;
+text-decoration: none;
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+
+}
+
+.foot b{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-left: 10px;
+font-size: large;
+
+}
+.foot p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-left: 28px;
+
+}
+
+
+//logo
+.logo ion-icon{
+margin-left: 15px;
+padding: 10px;
+}
+
+.logo h2{
+padding-top: 20px;
+padding-left: 25px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.note{
+background-color: black;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+font-size: x-small;
+}
+
+.note p{
+color: grey;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+}
